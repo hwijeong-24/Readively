@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { InferenceQuestion, WordDef } from '../types';
-import { StoryIllustration } from './illustrations/StoryIllustration';
+import { StoryIllustration } from "./illustrations/StoryIllustration";
 import { WORD_DICTIONARY } from '../data/storyData';
 import { ChevronLeft, ChevronRight, CheckCircle2, AlertCircle, HelpCircle } from 'lucide-react';
 
