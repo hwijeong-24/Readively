@@ -1,0 +1,6 @@
+{
+  "name": "Readively",
+  "description": "Interactive English picture-book reading app that guides 5th-6th grade learners to actively read aloud with AI feedback, infer from pictures, and reflect.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

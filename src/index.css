@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-story: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-kr: 'Gowun Dodum', 'Jua', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-story);
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.font-kr {
+  font-family: var(--font-kr);
+}
+
+.font-story {
+  font-family: var(--font-story);
+}
+
+/* Touch drag utilities */
+.touch-none {
+  touch-action: none;
+}
