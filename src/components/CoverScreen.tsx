@@ -1,5 +1,5 @@
 import React from 'react';
-import { StoryIllustration } from './illustrations/StoryIllustration';
+import { StoryIllustration } from "./illustrations/StoryIllustration";
 import { Mic, Search, Smile, BookOpen, Sparkles } from 'lucide-react';
 import { STORY_TITLE } from '../data/storyData';
 
